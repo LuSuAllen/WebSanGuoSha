@@ -1,0 +1,38 @@
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+
+# Others
+*.local
+*.log
+
+# React
+client/build/
+client/dist/
+
+# Server
+server/build/
+server/dist/
+
+# config
+package.json
+package-lock.json
