@@ -129,7 +129,7 @@ export default function RoomLobby({ roomId, onExit }: RoomLobbyProps) {
   };
 
   if (inGame) {
-    return <GameTable onExit={handleGameExit} />;
+    return <GameTable onExit={handleGameExit} roomId={roomId} />;
   }
 
   return (
